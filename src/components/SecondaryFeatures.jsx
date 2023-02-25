@@ -121,12 +121,12 @@ export function SecondaryFeatures() {
       className="py-36 bg-neutral-900 sm:py-32"
     >
       <Container>
-        <div className="mx-auto max-w-2xl sm:text-center">
+        <div className="mx-auto max-w-6xl sm:text-center">
           <h2 className="text-6xl font-bold tracking-tight text-white">
-            How is AAN <span className='text-aanred'>different</span>?
+            Create your own <span className='text-aanred'>adventure</span>.
           </h2>
           <p className="mt-10 text-lg text-gray-300">
-            AAN (All Ambassador Network) Is a platform that empowers brands through nano and micro-ambassador connections.
+            AAN (All Ambassador Network) helps content creators turn their passion into a money-making opportunity. With our platform, you can create your own adventure with your content and following and get paid for it, too. Here's how it works.
           </p>
         </div>
         <ul
