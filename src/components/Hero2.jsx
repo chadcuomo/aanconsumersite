@@ -1,7 +1,7 @@
 import { useId, useRef, useState } from 'react'
 import Image from 'next/image'
 import clsx from 'clsx'
-import { motion, useInView, useMotionValue } from 'framer-motion'
+import { motion, useInView, useMotionValue, AnimatePresence } from 'framer-motion'
 
 import { AppScreen } from '@/components/AppScreen'
 import { AppStoreLink } from '@/components/AppStoreLink'
@@ -16,6 +16,7 @@ import logoForbes from '@/images/logos/forbes.svg'
 import logoHuffpost from '@/images/logos/huffpost.svg'
 import logoTechcrunch from '@/images/logos/techcrunch.svg'
 import logoWired from '@/images/logos/wired.svg'
+import Test01 from './Test01'
 
 function BackgroundIllustration(props) {
   let id = useId()
@@ -271,14 +272,13 @@ export function Hero2() {
       <Container>
         <div className="text-center">
           <div className="w-full lg:pt-36 flex flex-wrap justify-center">
-            <h1 className="text-7xl font-extrabold tracking-tight text-white md:text-8xl">
-              It’s time to get <span className='text-aanred'>paid</span> for the <span className='text-aanred'>content</span> you create.
-            </h1>
-            <p className="mt-14 text-lg w-3/4 text-gray-300">
-            Discover how AAN is helping content creators turn their passion into a money-making opportunity. 
-            Our two-sided marketplace allows you to partner with businesses and helps you get paid doing what you love. 
-            </p>
-            <div className="mt-14 flex  w-full flex-wrap justify-center gap-x-6 gap-y-4">
+            
+            <Test01 />
+            {/* <p className="mt-14 text-xl w-3/4 text-gray-300">
+              Discover how AAN is helping content creators turn their passion into a money-making opportunity. 
+              Our two-sided marketplace allows you to partner with businesses and get paid for doing what you love.
+            </p> */}
+            <div className="mt-14 pt-28 flex  w-full flex-wrap justify-center gap-x-6 gap-y-4">
               {/* <AppStoreLink /> */}
               <Button
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
