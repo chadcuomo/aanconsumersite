@@ -129,7 +129,7 @@ export function SecondaryFeatures() {
           </h2>
           <p className="mt-10 text-lg text-gray-300">
             AAN (All Ambassador Network) helps content creators turn their passion into a money-making opportunity. 
-            With our platform, you can create your adventure with your content and following and get paid for it, too. Here's how it works.
+            With our platform, you can create your adventure with your content and following and get paid for it, too. Here’s how it works.
           </p>
         </div>
         <ul

@@ -242,7 +242,7 @@ export function PricingTemp({ setOpen }) {
             Getting started is <span className="text-aanred">easy</span>.
           </h2>
           <p className="mt-10 text-lg text-gray-300">
-            We're looking to grow our ambassador community! Request an invite to get early access to our marketplace and start earning money for the content you create!
+            We’re looking to grow our ambassador community! Request an invite to get early access to our marketplace and start earning money for the content you create!
           </p>
         </div>
         {/* <p className="mt-10 text-sm text-gray-300 text-center">
