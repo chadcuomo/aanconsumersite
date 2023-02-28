@@ -271,7 +271,7 @@ export function Hero() {
       <Container>
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl  pr-2 lg:col-span-7 lg:max-w-none lg:pt-36 xl:col-span-6">
-            <h1 className="text-7xl font-extrabold tracking-tight text-white">
+            <h1 className="text-6xl md:text-7xl font-extrabold tracking-tight text-white">
               Let your <span className='text-aanred'>creativity</span> shine.
             </h1>
             <p className='mt-14 text-xl text-white font-bold'>Monetize your content.</p>

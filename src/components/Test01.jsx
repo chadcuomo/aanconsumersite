@@ -36,7 +36,7 @@ const Test01 = () => {
 
   return (
     <div className="w-full text-center" style={{ position: "relative" }}>
-      <h1 className="text-7xl font-extrabold tracking-tight text-white md:text-8xl">
+      <h1 className="text-6xl font-extrabold tracking-tight text-white md:text-8xl">
         A place for creators to
         <div className="mask">
           <AnimatePresence>
@@ -50,7 +50,7 @@ const Test01 = () => {
               style={{ position: "absolute" }}
               className="w-full text-center animation"
             >
-              <h1 className="text-center text-7xl font-extrabold tracking-tight text-aanred md:text-8xl">{items[index].content}</h1>
+              <h1 className="text-center text-6xl font-extrabold tracking-tight text-aanred md:text-8xl">{items[index].content}</h1>
             </motion.div>
             
           </AnimatePresence>
