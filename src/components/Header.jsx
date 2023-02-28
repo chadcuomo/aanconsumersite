@@ -113,7 +113,9 @@ export function Header() {
                             <Button href="/login" variant="outline">
                               Log in
                             </Button>
-                            <Button href="#pricing">Get early access</Button>
+                            <Popover.Button className="block w-full rounded-md border border-transparent bg-aanred px-5 py-3 text-base font-medium text-white shadow hover:bg-red-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-aanred sm:px-10 sm:w-auto" href="#pricing">
+                              <a href='#pricing'>Request an invite</a>
+                            </Popover.Button>
                           </div>
                         </Popover.Panel>
                       </>
@@ -126,7 +128,7 @@ export function Header() {
               Log in
             </Button>
             <Button href="#pricing" className="hidden lg:block">
-              Get early access
+              Request an invite
             </Button>
           </div>
         </Container>

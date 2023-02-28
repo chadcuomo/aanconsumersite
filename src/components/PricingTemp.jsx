@@ -242,14 +242,13 @@ export function PricingTemp({ setOpen }) {
             Getting started is <span className="text-aanred">easy</span>.
           </h2>
           <p className="mt-10 text-lg text-gray-300">
-            Whether you’re small businees trying to find your audience or a large brand trying
-            to increase your reach and engagement, we’ve got a personalized plan for you
+            We're looking to grow our ambassador community! Request an invite to get early access to our marketplace and start earning money for the content you create!
           </p>
         </div>
-        <p className="mt-10 text-sm text-gray-300 text-center">
+        {/* <p className="mt-10 text-sm text-gray-300 text-center">
           Sign up for early access!
-        </p>
-        <form onSubmit={handleFormSubmit} className="mt-2 sm:mx-auto sm:flex sm:max-w-2xl">
+        </p> */}
+        <form onSubmit={handleFormSubmit} className="mt-8 sm:mx-auto sm:flex sm:max-w-2xl">
         
           <div className="min-w-0 flex-1">
             <label htmlFor="cta-email" className="sr-only">
@@ -269,7 +268,7 @@ export function PricingTemp({ setOpen }) {
               type="submit"
               className="block w-full rounded-md border border-transparent bg-aanred px-5 py-3 text-base font-medium text-white shadow hover:bg-red-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-aanred sm:px-10"
             >
-              Get started
+              Request an invite
             </button>
           </div>
         </form>

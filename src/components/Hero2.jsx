@@ -272,16 +272,15 @@ export function Hero2() {
       <Container>
         <div className="text-center">
           <div className="w-full lg:pt-36 flex flex-wrap justify-center">
-            
             <Test01 />
             {/* <p className="mt-14 text-xl w-3/4 text-gray-300">
               Discover how AAN is helping content creators turn their passion into a money-making opportunity. 
               Our two-sided marketplace allows you to partner with businesses and get paid for doing what you love.
             </p> */}
-            <div className="mt-14 pt-28 flex  w-full flex-wrap justify-center gap-x-6 gap-y-4">
+            <div className="mt-14 flex  w-full flex-wrap justify-center gap-x-6 gap-y-4">
               {/* <AppStoreLink /> */}
               <Button
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                href="#pricing"
               >
                 {/* <PlayIcon className="h-6 w-6 flex-none" /> */}
                 <span className="">Start now</span>

@@ -30,8 +30,8 @@ export default function Home() {
         <Hero2 />
         <Hero />
         <SecondaryFeatures />
-        <CallToAction />
-        <Reviews />
+        {/* <CallToAction />
+        <Reviews /> */}
         <PricingTemp setOpen={setModalOpen} />
         <Faqs />
       </main>
